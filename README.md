@@ -10,22 +10,22 @@
 <br>
 
 **Table of Contents**
-- [STAGE 0: Problem Statement]()
-	- [Introduction]()
-	- [Goal]()
-	- [Objective]()
-- [STAGE 1: Data Preparation]()
-	- [Data Quality Asssessment]()
-	- [Feature Engineering]()
-- [STAGE 2: Data Exploration]()
-	- [Conversion Rate by Income, Spending, and Age]()
-	- [Income and Total Spending]()
-- [STAGE 3: Data Modeling with K-Means Clustering]()
-	- [Pre-processing]()
-	- [Modeling]()
-	- [Evaluation]()
-- [STAGE 4: Customer Personality Analysis]()
-- [STAGE 5: Business Recommendation]()
+- [STAGE 0: Problem Statement](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#-stage-0-problem-statement)
+	- [Introduction](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#introduction)
+	- [Goal](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#goal)
+	- [Objective](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#objective)
+- [STAGE 1: Data Preparation](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#-stage-1-data-preparation)
+	- [Data Quality Asssessment](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#data-quality-asssessment)
+	- [Feature Engineering](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#feature-engineering)
+- [STAGE 2: Data Exploration](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#-stage-2-data-exploration)
+	- [Conversion Rate by Income, Spending, and Age](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#conversion-rate-by-income-spending-and-age)
+	- [Income and Total Spending](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#income-and-total-spending)
+- [STAGE 3: Data Modeling with K-Means Clustering](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#-stage-3-data-modeling-with-k-means-clustering)
+	- [Pre-processing](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#pre-processing)
+	- [Modeling](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#modeling)
+	- [Evaluation](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#evaluation)
+- [STAGE 4: Customer Personality Analysis](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#-stage-4-customer-personality-analysis)
+- [STAGE 5: Business Recommendation](https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/blob/main/README.md#-stage-5-business-recommendation)
 <br>
 <br>
 
@@ -34,7 +34,7 @@
 ## 📂 **STAGE 0: Problem Statement**
 
 ### Introduction
-Memahami bagaimana profil dan perilaku pelanggan dalam melakukan transaksi sangat penting untuk mengatur strategi penjualan produk dari sebuah perusahaan. Dengan memahami preferensi, kebutuhan, dan pola pembelian pelanggan, perusahaan dapat memberikan treatment yang tepat untuk setiap individu berdasarkan permasalahan yang dihadapinya. Dengan mempertimbangkan faktor-faktor ini, perusahaan dapat memberikan pengalaman yang lebih baik kepada pelanggan, meningkatkan kepuasan mereka dalam bertransaksi, dan pada akhirnya meningkatkan performa penjualan secara keseluruhan. Untuk menganalisis profil dan perilaku pelanggan, pendekatan clustering dapat digunakan untuk mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda, yang kemudian dapat memberikan wawasan berharga dalam menyusun strategi penjualan yang lebih efektif dan memenuhi kebutuhan setiap kelompok pelanggan dengan lebih baik. Dengan demikian, memahami karakteristik pelanggan melalui analisis clustering merupakan langkah penting dalam mengoptimalkan strategi penjualan dan mencapai keberhasilan jangka panjang bagi perusahaan.<br>
+Memahami bagaimana karakteristik atau perilaku pelanggan dalam melakukan transaksi sangat penting untuk mengatur strategi marketing dari sebuah perusahaan. Dengan memahami preferensi, kebutuhan, dan pola pembelian pelanggan, perusahaan dapat memberikan treatment yang tepat untuk setiap individu berdasarkan permasalahan yang dihadapinya. Dengan mempertimbangkan faktor-faktor ini, perusahaan dapat memberikan pengalaman yang lebih baik kepada pelanggan, meningkatkan kepuasan mereka dalam bertransaksi, dan pada akhirnya meningkatkan performa penjualan secara keseluruhan. Untuk menganalisis karakteristik atau perilaku pelanggan, pendekatan clustering dapat digunakan untuk mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda, yang kemudian dapat memberikan insight berharga dalam menyusun strategi marketing yang lebih efektif dan memenuhi kebutuhan setiap kelompok pelanggan dengan lebih baik. Dengan demikian, memahami karakteristik pelanggan melalui analisis clustering merupakan langkah penting dalam mengoptimalkan strategi penjualan dan mencapai keberhasilan jangka panjang bagi perusahaan.<br>
 <br>
 
 ### Goal
@@ -42,7 +42,7 @@ Tujuan dari analisis profil dan perilaku pelanggan dengan pendekatan clustering 
 <br>
 
 ### Objective
-- Membuat model mechine learning yang dapat mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda berdasarkan karakteristik dan perilaku mereka.
+- Membuat model mechine learning yang dapat mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda berdasarkan karakteristik atau perilaku mereka.
 - Mengekstraksi insight yang lebih mendalam tentang profil dan perilaku pelanggan.
 - Menentukan strategi bisnis yang efektif dari hasil clustering.<br>
 
@@ -207,7 +207,7 @@ Berdasarkan hasil analisis yang lebih mendalam dapat diketahui karakteristik rat
 Analisis distribusi beberapa fitur masing-masing cluster dilakukan juga dilakukan untuk mendapatkan wawasan yang lebih dalam. Melalui analisis ini, ditemukan beberapa insight menarik yang dapat memberikan pemahaman yang lebih baik tentang perilaku pengguna dalam setiap cluster, khususnya terkait kunjungan website dan respon terhadap campaign.
 
 <p align="center">
-    <kbd> <img width="900" alt="distri clus" src="https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/assets/115857221/05707677-9a7e-47c2-b071-6f2d2c72c718"></kbd> <br>
+    <kbd> <img width="1000" alt="distri clus" src="https://github.com/faizns/Predict-Customer-Personality-to-Boost-Marketing-Campaign/assets/115857221/05707677-9a7e-47c2-b071-6f2d2c72c718"></kbd> <br>
     Gambar 7 — Plot Distribusi Berdasarkan Cluster
 </p>
 <br>
